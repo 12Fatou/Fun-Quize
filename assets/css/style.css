@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Kalam:wght@300&family=Montserrat:wght@300&display=swap');
 
-:root{
+body{
     background-color: #AD8111;
+    font-family: 'Caveat', sans-serif;
 }
 
 * {
@@ -9,13 +10,13 @@
     margin: 0;
     padding: 0;
     font-size: 30px;
-    font-family: 'Raleway', sans-serif;
 }
 
 h1 {
     font-size: 5.4rem;
     color: #000;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
+    
 }
 
 /* Quiz Container */
