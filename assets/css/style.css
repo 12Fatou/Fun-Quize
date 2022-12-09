@@ -16,7 +16,11 @@ h1 {
     font-size: 5.4rem;
     color: #000;
     margin-bottom: 2rem;
-    
+}
+
+#score-progress{
+    font-weight:2rem ;
+    font-size: 2rem;
 }
 
 /* Quiz Container */
@@ -71,3 +75,26 @@ h1 {
 }
 
 /* Game.html*/
+
+.choice-container {
+    display: flex;
+    width: 100%;
+    margin-bottom: 0.8rem;
+    border-radius: 4px;
+    background: #E6C67C;
+    font-size: 3rem;
+    min-width: 30rem;
+
+}
+
+.choice-container:hover{
+    cursor: pointer;
+    box-shadow: #0e0b06;
+    transform: scale(1.03);
+    transform: transform 200ms;
+}
+
+.choice-prefix{
+    font-family: 'Montserrat' sans-serif;
+    padding: 20px;
+}
