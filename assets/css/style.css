@@ -21,6 +21,7 @@ h1 {
 #score-progress{
     font-weight:2rem ;
     font-size: 2rem;
+    padding-top: 40px;
 }
 
 /* Quiz Container */
@@ -32,7 +33,7 @@ h1 {
     height: 100vh;
     max-width: 70rem;
     margin: 0 auto;
-    padding: 34px;
+    padding: 20pxpx;
 
 }
 
@@ -76,6 +77,7 @@ h1 {
 
 /* Game.html*/
 
+
 .choice-container {
     display: flex;
     width: 100%;
@@ -97,4 +99,30 @@ h1 {
 .choice-prefix{
     font-family: 'Montserrat' sans-serif;
     padding: 20px;
+}
+
+.answer-choice{
+    padding: 20px;
+    width: 100%;
+}
+
+.correct{
+    background: rgb(105, 234, 105);
+}
+
+.incorrect{
+    background: rgb(247, 7, 7);
+}
+
+/* Heads up Display */
+
+
+.hud-prefix {
+   
+    font-size: 2rem;
+}
+
+
+@media screen and (max-width: 768px) {
+    
 }
